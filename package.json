@@ -1,0 +1,16 @@
+{
+  "name": "bonlang",
+  "version": "1.0.0",
+  "description": "lan dau hoc sass",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w",
+    "server": "live-server"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "node-sass": "^7.0.1"
+  },
+  "dependencies": {}
+}
